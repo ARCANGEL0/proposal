@@ -56,7 +56,7 @@ body {
     margin-top: 20px;
     margin-bottom: 0px;
 }
-.detalhes_horas {
+#detalhes_horas {
     font-family: 'Nunito';
     font-size: 2px;
     font-weight: bold;
