@@ -29,11 +29,20 @@ body {
 
 .header_text {
     font-family: 'Nunito';
-    font-size: 50px;
+    font-size: 2rem
     font-weight: bold;
     color: black;
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 0px;
+}
+.header_subtext {
+    font-family: 'Nunito';
+    font-size: 0.75rem
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
     margin-bottom: 0px;
 }
 
