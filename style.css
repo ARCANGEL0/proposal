@@ -47,6 +47,15 @@ body {
     margin-top: 20px;
     margin-bottom: 0px;
 }
+.detalhes_horas {
+    font-family: 'Nunito';
+    font-size: 6%;
+    font-weight: bold;
+    color: rgb(30,10,10);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
 .header_subtext {
     font-family: 'Nunito';
     font-size: 12%;
