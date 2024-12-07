@@ -19,17 +19,19 @@ body {
 #noButton {
     position: absolute;
     margin-left: 150px;
+    margin-top:10px;
     transition: 0.5s;
 }
 
 #yesButton {
     position: absolute;
+    margin-top:10px;
     margin-right: 150px;
 }
 
 .header_text {
     font-family: 'Nunito';
-    font-size: 30%;
+    font-size: 10%;
     font-weight: bold;
     color: black;
     text-align: center;
@@ -38,7 +40,7 @@ body {
 }
 .header_subtext {
     font-family: 'Nunito';
-    font-size: 21%;
+    font-size: 8%;
     font-weight: bold;
     color: black;
     text-align: center;
@@ -99,8 +101,8 @@ body {
 
 img
 {
-    max-width: 100%;
-    height: auto;
+    max-width: 80%;
+    height: 80%;
     cursor: pointer;
 }
 
