@@ -29,9 +29,9 @@ body {
     margin-right: 150px;
 }
 
-.header_text {
+.header_mtext {
     font-family: 'Nunito';
-    font-size: 10%;
+    font-size: 16%;
     font-weight: bold;
     color: black;
     text-align: center;
@@ -40,7 +40,7 @@ body {
 }
 .header_subtext {
     font-family: 'Nunito';
-    font-size: 8%;
+    font-size: 12%;
     font-weight: bold;
     color: black;
     text-align: center;
