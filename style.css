@@ -29,7 +29,7 @@ body {
 
 .header_text {
     font-family: 'Nunito';
-    font-size: 1rem;
+    font-size: 30%;
     font-weight: bold;
     color: black;
     text-align: center;
@@ -38,7 +38,7 @@ body {
 }
 .header_subtext {
     font-family: 'Nunito';
-    font-size: 0.75rem;
+    font-size: 21%;
     font-weight: bold;
     color: black;
     text-align: center;
