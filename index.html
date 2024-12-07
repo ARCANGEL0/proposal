@@ -23,6 +23,17 @@
     </script>
   </head>
   <body>
+        <div id="one" class="container">
+.
+            <div class="gif_container">
+                <img src="image/rode.gif" alt="Cute animated illustration">
+            </div>
+            <div class = "buttons">
+                <button class="btn" id = "yesButton" onclick="nextPageAsk()">Hm</button>
+
+             
+            </div >
+        </div>
         <div id="ask" class="container">
             <div >
                 <h1 class="header_mtext">Nathalia Patrício Servulo</h1>
@@ -112,6 +123,13 @@
             document.getElementById('novideo').play();
         }
 
+        function nextPageAsk() {
+            //window.location.href = "yes.html";
+            document.getElementById('ask').style.display = 'block';
+            document.getElementById('one').style.display = 'none';
+            document.getElementById('novideo').pause();
+            document.getElementById('ansvideo').play();
+        }
         function nextPage() {
             //window.location.href = "yes.html";
             document.getElementById('ans').style.display = 'block';
