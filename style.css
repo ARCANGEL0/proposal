@@ -56,6 +56,15 @@ body {
     margin-top: 20px;
     margin-bottom: 0px;
 }
+#p1{
+  font-size: 70vw;
+}
+#p2{
+  font-size: 50vw;
+}
+#meme{
+  font-size: 5vw;
+}
 #detalhes_horas {
     font-family: 'Nunito';
     font-size: 10vw;
