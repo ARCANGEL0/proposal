@@ -59,7 +59,47 @@
         </div>
         <div id="ans" class="container">
             <div >
-                <h1 class = "header_text">Yeeeyyyy!!</h1>
+              
+              
+    <h1 class="header_text">
+        YEEEYYYY!!<br>
+        Oficializados em <span id="data_atual"></span>
+    </h1>
+    <p id="detalhes_horas"></p>
+
+    <script>
+        // Função para formatar data e hora
+        function formatarData(data) {
+            const dia = String(data.getDate()).padStart(2, '0');
+            const mes = String(data.getMonth() + 1).padStart(2, '0'); // Janeiro é 0
+            const ano = data.getFullYear();
+            return `${dia}/${mes}/${ano}`;
+        }
+
+        function formatarHora(data) {
+            const horas = String(data.getHours()).padStart(2, '0');
+            const minutos = String(data.getMinutes()).padStart(2, '0');
+            return `${horas}:${minutos}`;
+        }
+
+        // Obter a data atual
+        const agora = new Date();
+
+        // Inserir a data no formato DD/MM/YYYY
+        document.getElementById("data_atual").textContent = formatarData(agora);
+
+        // Calcular o horário de Brasil e Portugal
+        const horaBrasil = new Date(agora.toLocaleString("en-US", { timeZone: "America/Sao_Paulo" }));
+        const horaPortugal = new Date(agora.toLocaleString("en-US", { timeZone: "Europe/Lisbon" }));
+
+        // Inserir os horários no parágrafo
+        document.getElementById("detalhes_horas").textContent = 
+            `E sendo um pouco mais obsessivo, precisamente as ${formatarHora(horaBrasil)} para você ` + 
+            `e ${formatarHora(horaPortugal)} para mim.`;
+    </script>
+
+
+              
             </div>
             <div class="gif_container">
                 <img src="image/ans.gif" alt="Cute animated illustration">
