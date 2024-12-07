@@ -6,6 +6,7 @@ body {
 
 #ans {
     display: none;
+    width: 100vw;
 }
 
 #ansvideo{
