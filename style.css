@@ -38,6 +38,15 @@ body {
     margin-top: 20px;
     margin-bottom: 0px;
 }
+.header_ext {
+    font-family: 'Nunito';
+    font-size: 26%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
 .datas {
     font-family: 'Nunito';
     font-size: 11%;
