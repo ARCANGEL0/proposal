@@ -4,6 +4,10 @@ body {
     background-color: #F8C8DC;
 }
 
+#ask {
+    display: none;
+    
+}
 #ans {
     display: none;
     width: 80vw;
