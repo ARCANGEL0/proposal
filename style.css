@@ -40,7 +40,7 @@ body {
 }
 .header_ext {
     font-family: 'Nunito';
-    font-size: 56%;
+    font-size: 100vw;
     font-weight: bold;
     color: black;
     text-align: center;
