@@ -4,7 +4,7 @@ body {
     background-color: #F8C8DC;
 }
 
-#ask {
+#ask, #two {
     display: none;
     
 }
