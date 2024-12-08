@@ -27,7 +27,10 @@ body {
     margin-top:10px;
     transition: 0.5s;
 }
-
+.imgtext{ 
+  text-align: right;
+  color: rgb(60,60,60);
+}
 #yesButton {
     position: absolute;
     margin-top:10px;
