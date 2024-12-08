@@ -31,6 +31,11 @@ body {
   text-align: right;
   color: rgb(60,60,60);
 }
+.undertext{ 
+  text-align: center;
+  margin: 12px;
+  color: rgb(60,60,60);
+}
 #yesButton {
     position: absolute;
     margin-top:10px;
